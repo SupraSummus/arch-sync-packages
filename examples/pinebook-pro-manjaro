@@ -1,0 +1,74 @@
+# manjaro arm / wayland kde plsama / pinebook pro / misc software
+
+# linux on pinebook pro
+uboot-pinebookpro
+f2fs-tools
+base
+crda
+haveged
+linux
+linux-firmware
+ap6256-firmware  # wifi/bt chip
+libva-utils
+libva-v4l2-request
+mesa-git
+
+# base devel
+autoconf
+automake
+binutils
+bison
+fakeroot
+file
+findutils
+flex
+gawk
+gcc
+gettext
+grep
+groff
+gzip
+libtool
+m4
+make
+pacman
+patch
+pkgconf
+sed
+sudo
+texinfo
+which
+
+# system administration
+nano
+yay
+gnu-netcat
+pacutils
+inetutils
+alsa-utils
+
+# kde plasma
+plasma-meta
+plasma-wayland-session
+konsole
+kwave
+dolphin
+okular
+ark
+pulseaudio-bluetooth
+
+# user apps
+chromium
+firefox
+kate
+libreoffice-still
+
+# development
+python
+python-poetry
+python-pip
+
+# temporary
+go-ipfs
+#bind
+#mesa-demos
