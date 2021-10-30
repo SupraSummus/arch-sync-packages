@@ -46,6 +46,10 @@ gnu-netcat
 pacutils
 inetutils
 alsa-utils
+bash-completion
+htop
+man-pages
+man-db
 
 # kde plasma
 plasma-meta
@@ -62,13 +66,26 @@ chromium
 firefox
 kate
 libreoffice-still
+pass
+wl-clipboard  # pass requires wl-copy
+youtube-dl
 
 # development
+git
 python
+python-tox
 python-poetry
 python-pip
+python-pipenv
+flake8
+postgresql-libs
+nodejs
+npm
 
 # temporary
 go-ipfs
 #bind
 #mesa-demos
+fuse2
+protobuf
+bubblewrap
