@@ -1,9 +1,8 @@
 set -euo pipefail
-#set -x
 
 INSTALLED_PACKAGES=$(yay -Qq --explicit | sort)
 # strip comments
-REQUIRED_PACKAGES=$(cat /etc/pkglist.txt | sed 's:#.*$::g' | tr ' ' '\n' | sort)
+REQUIRED_PACKAGES=$(cat /etc/pkglist.txt | sed 's:#.*$::g' | tr --squeeze-repeats '[:space:]' '\n' | sort)
 MISSING_PACKAGES=$(comm -13 <(echo "$INSTALLED_PACKAGES") <(echo "$REQUIRED_PACKAGES"))
 UNWANTED_PACKAGES=$(comm -23 <(echo "$INSTALLED_PACKAGES") <(echo "$REQUIRED_PACKAGES"))
 
