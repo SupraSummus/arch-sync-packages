@@ -1,0 +1,102 @@
+# base
+base
+linux-lts
+intel-ucode
+linux-firmware
+
+# base-devel group
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+m4
+make
+groff
+libtool
+patch
+pkgconf
+sudo
+texinfo
+which
+
+# hw video decode
+libva-mesa-driver
+
+# services
+pulseaudio
+pulseaudio-bluetooth
+f2fs-tools
+openssh
+jre-openjdk
+ntfs-3g
+
+# admin apps
+nano
+pacutils
+pacman-contrib
+yay-bin
+pavucontrol
+man-db
+man-pages
+nmap
+gnu-netcat
+arch-install-scripts
+gparted
+bind
+
+# user apps
+chromium
+firefox
+vlc
+atom
+minecraft-launcher
+pass
+wl-clipboard  # pass optionally requires wl-clipboard: for clipboard support on wayland
+p7zip
+libreoffice-still
+gimp
+bash-completion
+youtube-dl
+audacious
+
+# kde plasma
+plasma-meta
+plasma-wayland-session
+konsole
+nm-connection-editor
+network-manager-applet
+okular
+dolphin
+ark
+kate
+spectacle
+gwenview
+
+# development
+docker
+docker-compose
+fuse-overlayfs  # for docker on f2fs
+
+python-cookiecutter
+python-poetry
+python-django
+python-tox
+python-pipenv
+flake8
+
+nvm
+npm-check-updates
+
+heroku-cli
+postgresql
+git
+twine
+cloudflared
+prettier
+aws-cli
+elasticsearch
+go-ipfs
+protobuf
